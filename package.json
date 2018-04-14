@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-interface",
+  "version": "1.0.0",
+  "description": "nodejs编写的后端接口",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ming Ye",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.0"
+  },
+  "devDependencies": {
+    "encoding": "^0.1.12",
+    "http": "0.0.0",
+    "iconv-lite": "^0.4.21",
+    "jschardet": "^1.6.0",
+    "querystring": "^0.2.0",
+    "request": "^2.85.0"
+  }
+}
