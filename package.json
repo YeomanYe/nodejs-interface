@@ -10,14 +10,29 @@
   "author": "Ming Ye",
   "license": "MIT",
   "dependencies": {
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "koa-webpack-hot-middleware": "^1.0.3",
+    "koa-webpack-middleware": "^1.0.7",
+    "webpack": "^3.3.0",
+    "webpack-dev-middleware": "^3.1.2",
+    "webpack-hot-middleware": "^2.21.2"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "encoding": "^0.1.12",
+    "eventsource-polyfill": "^0.9.6",
     "http": "0.0.0",
     "iconv-lite": "^0.4.21",
     "jschardet": "^1.6.0",
+    "koa-body": "^2.5.0",
     "querystring": "^0.2.0",
-    "request": "^2.85.0"
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
   }
 }
